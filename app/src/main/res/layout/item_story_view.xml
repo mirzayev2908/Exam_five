@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/linear_rounded">
+
+        <ImageView
+            android:id="@+id/iv_story"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/mealmeal"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_rounded"
+            app:backgroundTint="@null"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:id="@+id/tv_story"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Restaurants"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
